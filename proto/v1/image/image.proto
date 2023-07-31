@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package image;
+option go_package = "chat-proto/proto/v1/image";
+
+service ImageService {
+    rpc ProfileImage (ProfileImageRequest) returns (ProfileImageResponse) {}
+}
+
+message ProfileImageRequest {
+    string uid = 1;
+    bytes image = 2;
+}
+
+message ProfileImageResponse {
+    bool success = 1;
+    string msg = 2;
+    string url = 3;
+}
