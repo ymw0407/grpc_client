@@ -46,7 +46,7 @@ func main() {
 		println(e.Error())
 	}
     res, e := c.ProfileImage(context.TODO(), &pb.ProfileImageRequest{
-		Uid: "test2222",
+		Uid: "2qLyPFDI2zYZ7hRTedXVsxI8waS2",
 		Image: sp,
 	})
 	if e != nil {
