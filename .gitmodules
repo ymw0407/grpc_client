@@ -1,0 +1,3 @@
+[submodule "proto/remote"]
+	path = proto/remote
+	url = https://github.com/adelab-inc/telepathy-proto
